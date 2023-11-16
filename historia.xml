@@ -1,0 +1,161 @@
+<story title="O Desafio do Agricultor">
+    <introduction>
+        Neste emocionante jogo, você se encontrará no papel de um agricultor que mora em um vilarejo remoto. Sua missão é crucial: garantir o sucesso do plantio deste ano e alimentar o povo do vilarejo. O inverno foi impiedoso, deixando as reservas de alimentos do vilarejo esgotadas e a esperança em suas mãos calejadas. Sua habilidade em cultivar a terra e enfrentar desafios imprevisíveis será testada enquanto você luta contra pragas, lida com as incertezas da natureza e busca maneiras criativas de prosperar. Prepare-se para uma jornada repleta de emoções, onde cada decisão que você tomar terá um impacto direto no destino do vilarejo. Suas escolhas determinarão se você conseguirá ou não alimentar seu povo e manter viva a esperança na comunidade. O sucesso depende de sua coragem e habilidade para superar desafios inimagináveis. Está pronto para enfrentar "O Desafio do Agricultor"?
+    </introduction>
+
+    <level1>
+        <choice id="A" description="Limpar completamente a área florestal?" image="imagens\Imagens\começo.jpg">
+            <level2>
+                <choice id="A1" description="Usar produtos químicos para fertilizar as culturas" image="imagens\Imagens\a.jpg">
+                    <level3>
+                        <choice id="A1a" description="Cultivar milho e soja visando lucros rápidos" image="imagens\Imagens\A1 _ A2.jpg">
+                            <level4>
+                                <choice id="A1a1" description="Aplicar produtos químicos para combater pragas nas plantas" image="imagens\Imagens\A1a _ A1a1 _ A2a.jpg">
+                                    <level5>
+                                        <choice id="A1a1a" description="Utilizar animais no processo de colheita" image="imagens\Imagens\A1a _ A1a1 _ A2a.jpg"/>
+                                        <choice id="A1a1b" description="Preferir a colheita feita manualmente" image="imagens\Imagens\B1a _ B2a.jpg"/>
+                                    </level5>
+                                </choice>
+                                <choice id="A1a2" description="Introduzir predadores naturais no ecossistema para controle de pragas" image="">
+                                    <level5>
+                                        <choice id="A1a2a" description="Utilizar animais no processo de colheita" image="imagens\Imagens\A1a2 _ A1b2.jpg"/>
+                                        <choice id="A1a2b" description="Preferir a colheita feita manualmente" image="imagens\Imagens\A1a2 _ A1b2.jpg"/>
+                                    </level5>
+                                </choice>
+                            </level4>
+                        </choice>
+                        <choice id="A1b" description="Optar por legumes e frutas para preservar a qualidade do solo" image="">
+                            <level4>
+                                <choice id="A1b1" description="Aplicar produtos químicos para combater pragas nas plantas" image="imagens\Imagens\A1b _ A1b1 _ A2b _ A2a1.jpg">
+                                    <level5>
+                                        <choice id="A1b1a" description="Utilizar animais no processo de colheita" image="imagens\Imagens\A1b _ A1b1 _ A2b _ A2a1.jpg"/>
+                                        <choice id="A1b1b" description="Preferir a colheita feita manualmente" image="imagens\Imagens\A1b _ A1b1 _ A2b _ A2a1.jpg"/>
+                                    </level5>
+                                </choice>
+                                <choice id="A1b2" description="Introduzir predadores naturais no ecossistema para controle de pragas" image="">
+                                    <level5>
+                                        <choice id="A1b2a" description="Utilizar animais no processo de colheita" image="imagens\Imagens\a1b2 _ A2b2.jpg"/>
+                                        <choice id="A1b2b" description="Preferir a colheita feita manualmente" image="imagens\Imagens\a1b2 _ A2b2.jpg"/>
+                                    </level5>
+                                </choice>
+                            </level4>
+                        </choice>
+                    </level3>
+                </choice>
+                <choice id="A2" description="Escolher fertilizantes orgânicos para manter a saúde do solo" image="imagens\Imagens\A1 _ A2.jpg">
+                    <level3>
+                        <choice id="A2a" description="Cultivar milho e soja visando lucros rápidos" image="imagens\Imagens\A1 _ A2.jpg">
+                            <level4>
+                                <choice id="A2a1" description="Aplicar produtos químicos para combater pragas nas plantas" image="imagens\Imagens\A1a _ A1a1 _ A2a.jpg">
+                                    <level5>
+                                        <choice id="A2a1a" description="Utilizar animais no processo de colheita" image="imagens\Imagens\A1a _ A1a1 _ A2a.jpg"/>
+                                        <choice id="A2a1b" description="Preferir a colheita feita manualmente" image="imagens\Imagens\A1a _ A1a1 _ A2a.jpg"/>
+                                    </level5>
+                                </choice>
+                                <choice id="A2a2" description="Introduzir predadores naturais no ecossistema para controle de pragas" image="">
+                                    <level5>
+                                        <choice id="A2a2a" description="Utilizar animais no processo de colheita" image="imagens\Imagens\A1a2 _ A1b2.jpg"/>
+                                        <choice id="A2a2b" description="Preferir a colheita feita manualmente" image="imagens\Imagens\A1a2 _ A1b2.jpg"/>
+                                    </level5>
+                                </choice>
+                            </level4>
+                        </choice>
+                        <choice id="A2b" description="Optar por legumes e frutas para preservar a qualidade do solo" image="">
+                            <level4>
+                                <choice id="A2b1" description="Aplicar produtos químicos para combater pragas nas plantas" image="imagens\Imagens\A1b _ A1b1 _ A2b _ A2a1.jpg">
+                                    <level5>
+                                        <choice id="A2b1a" description="Utilizar animais no processo de colheita" image="imagens\Imagens\A1b _ A1b1 _ A2b _ A2a1.jpg"/>
+                                        <choice id="A2b1b" description="Preferir a colheita feita manualmente" image="imagens\Imagens\A1b _ A1b1 _ A2b _ A2a1.jpg"/>
+                                    </level5>
+                                </choice>
+                                <choice id="A2b2" description="Introduzir predadores naturais no ecossistema para controle de pragas" image="">
+                                    <level5>
+                                        <choice id="A2b2a" description="Utilizar animais no processo de colheita" image="imagens\Imagens\a1b2 _ A2b2.jpg"/>
+                                        <choice id="A2b2b" description="Preferir a colheita feita manualmente" image="imagens\Imagens\A1a2 _ A1b2.jpg"/>
+                                    </level5>
+                                </choice>
+                            </level4>
+                        </choice>
+                    </level3>
+                </choice>
+            </level2>
+        </choice>
+
+        <choice id="B" description="Reduzir parte da floresta para abrir espaço para a plantação?" image="imagens\Imagens\B.jpg">
+            <level2>
+                <choice id="B1" description="Utilizar produtos químicos para fertilizar as culturas?" image="imagens\Imagens\B.jpg">
+                    <level3>
+                        <choice id="B1a" description="Cultivar milho e soja visando lucros rápidos?" image="imagens\Imagens\B1 _ B2.jpg">
+                            <level4>
+                                <choice id="B1a1" description="Aplicar produtos químicos para combater pragas nas plantas?" image="imagens\Imagens\B1a _ B2a.jpg">
+                                    <level5>
+                                        <choice id="B1a1a" description="Utilizar animais no processo de colheita?" image="imagens\Imagens\B1a _ B2a.jpg"/>
+                                        <choice id="B1a1b" description="Preferir a colheita feita manualmente?" image="imagens\Imagens\B1a _ B2a.jpg"/>
+                                    </level5>
+                                </choice>
+                                <choice id="B1a2" description="Introduzir predadores naturais no ecossistema para controle de pragas?" image="">
+                                    <level5>
+                                        <choice id="B1a2a" description="Utilizar animais no processo de colheita?" image="imagens\Imagens\ooo.jpg"/>
+                                        <choice id="B1a2b" description="Preferir a colheita feita manualmente?" image="imagens\Imagens\ooo.jpg"/>
+                                    </level5>
+                                </choice>
+                            </level4>
+                        </choice>
+                        <choice id="B1b" description="Optar por legumes e frutas para preservar a qualidade do solo?" image="imagens\Imagens\B1b _ B2b.jpg">
+                            <level4>
+                                <choice id="B1b1" description="Aplicar produtos químicos para combater pragas nas plantas?" image="imagens\Imagens\B1b _ B2b.jpg">
+                                    <level5>
+                                        <choice id="B1b1a" description="Utilizar animais no processo de colheita?" image="imagens\Imagens\B1b _ B2b.jpg"/>
+                                        <choice id="B1b1b" description="Preferir a colheita feita manualmente?" image="imagens\Imagens\B1b _ B2b.jpg"/>
+                                    </level5>
+                                </choice>
+                                <choice id="B1b2" description="Introduzir predadores naturais no ecossistema para controle de pragas?" image="">
+                                    <level5>
+                                        <choice id="B1b2a" description="Utilizar animais no processo de colheita?" image="imagens\Imagens\alll.jpg"/>
+                                        <choice id="B1b2b" description="Preferir a colheita feita manualmente?" image="imagens\Imagens\alll.jpg"/>
+                                    </level5>
+                                </choice>
+                            </level4>
+                        </choice>
+                    </level3>
+                </choice>
+                <choice id="B2" description="Escolher fertilizantes orgânicos para manter a saúde do solo?" image="imagens\Imagens\B1 _ B2.jpg">
+                    <level3>
+                        <choice id="B2a" description="Cultivar milho e soja visando lucros rápidos?" image="imagens\Imagens\B1 _ B2.jpg">
+                            <level4>
+                                <choice id="B2a1" description="Aplicar produtos químicos para combater pragas nas plantas?" image="imagens\Imagens\B1a _ B2a.jpg">
+                                    <level5>
+                                        <choice id="B2a1a" description="Utilizar animais no processo de colheita?" image="imagens\Imagens\B1a _ B2a.jpg"/>
+                                        <choice id="B2a1b" description="Preferir a colheita feita manualmente?" image="imagens\Imagens\B1a _ B2a.jpg"/>
+                                    </level5>
+                                </choice>
+                                <choice id="B2a2" description="Introduzir predadores naturais no ecossistema para controle de pragas?" image="">
+                                    <level5>
+                                        <choice id="B2a2a" description="Utilizar animais no processo de colheita?" image="imagens\Imagens\B1a2 _ B2a2.jpg"/>
+                                        <choice id="B2a2b" description="Preferir a colheita feita manualmente?" image="imagens\Imagens\B1a2 _ B2a2.jpg"/>
+                                    </level5>
+                                </choice>
+                            </level4>
+                        </choice>
+                        <choice id="B2b" description="Optar por legumes e frutas para preservar a qualidade do solo?" image="">
+                            <level4>
+                                <choice id="B2b1" description="Aplicar produtos químicos para combater pragas nas plantas?" image="imagens\Imagens\B2b1 _ B2b2.jpg">
+                                    <level5>
+                                        <choice id="B2b1a" description="Utilizar animais no processo de colheita?" image="imagens\Imagens\B2b1 _ B2b2.jpg"/>
+                                        <choice id="B2b1b" description="Preferir a colheita feita manualmente?" image="imagens\Imagens\B2b1 _ B2b2.jpg"/>
+                                    </level5>
+                                </choice>
+                                <choice id="B2b2" description="Introduzir predadores naturais no ecossistema para controle de pragas?" image="">
+                                    <level5>
+                                        <choice id="B2b2a" description="Utilizar animais no processo de colheita?" image="imagens\Imagens\alll.jpg"/>
+                                        <choice id="B2b2b" description="Preferir a colheita feita manualmente?" image="imagens\Imagens\alll.jpg"/>
+                                    </level5>
+                                </choice>
+                            </level4>
+                        </choice>
+                    </level3>
+                </choice>
+            </level2>
+        </choice>
+    </level1>
+</story>

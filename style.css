@@ -1,0 +1,76 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fdfeff;
+    padding: 20px;
+}
+
+/* Container principal da história */
+#story-container {
+    background-color: #24d278;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #060606;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.choice-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around; /* ou outro valor, como space-between ou space-evenly */
+    gap: 10px;
+}
+
+
+/* Área de escolhas */
+#choices {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Botões de escolha */
+button {
+    display: inline-block;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border: none;
+    background-color: #1e8449;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: green;
+}
+
+
+/* Histórico de escolhas e IDs de escolhas */
+#choice-history, #choice-id-history {
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+#choice-history h2, #choice-id-history h2 {
+    margin-bottom: 10px;
+}
+
+#choice-history ul, #choice-id-history ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Imagens */
+.img {
+    width: 65%; /* Adiciona esta propriedade para garantir que a largura seja 100% */
+    max-width: 800px; /* Ajusta a largura máxima da imagem para ser responsiva */
+    border-radius: 6px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+}
